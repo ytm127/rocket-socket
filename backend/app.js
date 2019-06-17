@@ -4,7 +4,7 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
 app.get('/', function (req, res) {
-    res.send("Hello world of node");
+    // res.send("Hello world of node");
 });
 
 io.on('connection', function (socket) {
