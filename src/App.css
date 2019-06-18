@@ -1,0 +1,17 @@
+h1, #desc {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+i.fab.fa-rocketchat {
+    text-align: center;
+    display: block;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+}

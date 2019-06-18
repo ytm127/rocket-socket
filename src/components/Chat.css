@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+.chat_component {
+    /* display: inline-block; */
+    width: 100%;
+}
+
+.row {
+    display: inline-block;
+    width: 60%;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // need to import this socket dependency for client side
 import io from "socket.io-client";
+import './Chat.css';
 
 class Chat extends React.Component {
 
@@ -43,12 +44,10 @@ class Chat extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="row">
-                    <div className="col-4">
+                <div className="chat_component">
+                    <div className="row">
                         <div className="card">
                             <div className="card-body">
-                                <div className="card-title">Global Chat</div>
-                                <hr />
                                 <div className="messages">
                                     {this.state.messages.map(message => {
                                         return (
