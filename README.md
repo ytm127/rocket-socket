@@ -1,3 +1,5 @@
+![](Screen%20Shot%202019-06-19%20at%2011.22.26%20AM.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
